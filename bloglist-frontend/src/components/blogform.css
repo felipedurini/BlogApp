@@ -1,0 +1,61 @@
+.blogform-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 28px 32px;
+  border-radius: 14px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.blogform-title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Labels */
+.blogform-label {
+  color: #e8e8e8;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.blogform-input {
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 12px 14px;
+  font-size: 1rem;
+}
+
+.blogform-input::placeholder {
+  color: #cccccc;
+}
+
+.blogform-input:focus {
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 8px rgba(74, 114, 255, 0.4);
+}
+
+/* Button */
+.blogform-button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4a72ff, #ff4ac8);
+  border: none;
+  color: #ffffff;
+  transition: opacity 0.25s ease, transform 0.2s ease;
+}
+
+.blogform-button:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}

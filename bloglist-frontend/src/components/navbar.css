@@ -1,0 +1,63 @@
+/* ===== NAVBAR GLOBAL STYLE ===== */
+.custom-navbar {
+  background: #1a1c1f !important;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+/* Brand (Blog App) */
+.custom-navbar .navbar-brand {
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  margin-right: 40px;
+  transition: text-shadow 0.3s ease;
+}
+
+.custom-navbar .navbar-brand:hover {
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+/* Links del navbar */
+.custom-navbar .nav-link {
+  color: #cfcfcf !important;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  margin-right: 40px;
+  font-weight: 500;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px #7da2ff;
+}
+
+/* Usuario a la derecha */
+.nav-user {
+  color: #e0e0e0;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-right: 22px;
+}
+
+/* Botón logout */
+.nav-logout-btn {
+  margin-left: 10px;
+  padding: 9px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-logout-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Quitar línea blanca molesta debajo */
+.navbar-spacer-hidden {
+  display: none !important;
+}
