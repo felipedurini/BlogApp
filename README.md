@@ -3,6 +3,9 @@
 Aplicación full-stack para la gestión de blogs con autenticación de usuarios.  
 Permite crear, listar, comentar y eliminar blogs, además de visualizar usuarios y sus publicaciones.
 
+<img width="1155" height="608" alt="image" src="https://github.com/user-attachments/assets/a3b8bb78-ff4c-4cc5-a77f-1acaf89f2ef3" />
+
+
 El proyecto está dividido en **frontend** y **backend**, comunicados mediante una API REST.
 
 ---
